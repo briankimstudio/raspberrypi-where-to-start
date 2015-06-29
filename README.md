@@ -41,3 +41,8 @@ Compilation of useful links for Raspberry Pi Beginner
 
 - [Hardware-accelerated video playback](https://wiki.matthiasbock.net/index.php/Hardware-accelerated_video_playback_on_the_Raspberry_Pi)
 
+## Javascript
+
+- [Node](http://www.element14.com/community/community/raspberry-pi/raspberrypi2/blog/2015/03/25/rpi2-nodejs-expressjs-sockjs-angularjs) : Compile Node for Raspberry Pi 2
+- [onoff](https://www.npmjs.com/package/onoff) : gpio package
+- [gpio-stream](https://www.npmjs.com/package/gpio-stream) : Unix stream style handling of gpio

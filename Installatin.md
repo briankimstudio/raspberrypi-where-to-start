@@ -1,4 +1,8 @@
 
+- Mount USB drive
+
+sudo mount /dev/sda1 /mnt/disk
+
 - Wifi USB driver
 
 https://dumitrudany.wordpress.com/2020/05/24/wifi-using-an-rtl8188eus-dongle-on-raspberry-pi-zero/

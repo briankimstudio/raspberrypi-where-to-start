@@ -5,7 +5,10 @@
 https://siytek.com/install-home-assistant-on-raspbian/
 
 ```
-sudo apt-get install python3 python3-dev python3-venv python3-pip libffi-dev libssl-dev
+sudo apt-get install python3 python3-dev python3-venv python3-pip libffi-dev libssl-dev 
+
+sudo apt-get install libopenjp2-7 libtiff-dev
+
 sudo useradd -rm homeassistant -G dialout,gpio,i2c
 sudo mkdir /srv/homeassistant
 sudo chown homeassistant:homeassistant /srv/homeassistant
@@ -15,6 +18,10 @@ source /srv/homeassistant/bin/activate
 
 python3 -m pip install wheel
 pip3 install homeassistant
+
+python3 -m pip install  hass-nabucasa==0.39.0
+python3 -m pip install home-assistant-frontend==20201229.1
+
 hass
 ```
 

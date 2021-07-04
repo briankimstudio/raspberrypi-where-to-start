@@ -60,3 +60,22 @@ sudo systemctl --system daemon-reload
 sudo systemctl enable home-assistant@homeassistant
 ```
 
+## Camera
+
+configuration.yaml
+
+```
+rpi_camera:
+
+homeassistant:
+  whitelist_external_dirs:
+  - "/tmp"
+
+camera:
+  - platform: rpi_camera
+    timelapse: 1000
+    file_path: "/tmp/image.jpg"
+
+```
+
+

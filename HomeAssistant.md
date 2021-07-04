@@ -66,15 +66,12 @@ configuration.yaml
 
 ```
 rpi_camera:
-
-homeassistant:
-  whitelist_external_dirs:
-  - "/tmp"
+  image_rotation: 180
+  overlay_timestamp: 12
 
 camera:
   - platform: rpi_camera
-    timelapse: 1000
-    file_path: "/tmp/image.jpg"
+    name: Raspberry Pi Camera
 
 ```
 
